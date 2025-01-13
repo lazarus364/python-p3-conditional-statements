@@ -13,10 +13,10 @@ def hows_the_weather(temperature):
         return "It's brisk out there!"
     elif 40 <= temperature < 65:
         return "It's a little chilly out there!"
-    elif 65 <= temperature <= 85:
-        return "It's perfect out there!"
-    else:
+    elif temperature > 85:
         return "It's too dang hot out there!"
+    else:
+        return "It's perfect out there!"
 
         
  
